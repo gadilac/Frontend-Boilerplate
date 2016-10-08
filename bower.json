@@ -1,0 +1,31 @@
+{
+  "name": "beelory",
+  "authors": [
+    "Tri Huynh <mr.tonyhuynh@gmail.com>"
+  ],
+  "description": "frontend-boilerplate",
+  "main": "",
+  "moduleType": [
+    "es6"
+  ],
+  "keywords": [
+    "html5",
+    "scss",
+    "jquery"
+  ],
+  "license": "MIT",
+  "homepage": "http://beelory.com",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "slick-carousel": "^1.6.0",
+    "aos": "^2.1.0"
+  }
+}

@@ -1,0 +1,90 @@
+@import "addons/custom_variables";
+@import "addons/variables";
+@import "../vendor/bootstrap-sass/assets/stylesheets/bootstrap/mixins";
+
+/*
+ * Reset and dependencies
+ * --------------------------------------------------
+ */
+@import "../vendor/bootstrap-sass/assets/stylesheets/bootstrap/normalize";
+@import "../vendor/bootstrap-sass/assets/stylesheets/bootstrap/print";
+
+/*
+ * Core CSS
+ * --------------------------------------------------
+ */
+@import "../vendor/bootstrap-sass/assets/stylesheets/bootstrap/scaffolding";
+@import "../vendor/bootstrap-sass/assets/stylesheets/bootstrap/type";
+@import "../vendor/bootstrap-sass/assets/stylesheets/bootstrap/grid";
+@import "../vendor/bootstrap-sass/assets/stylesheets/bootstrap/tables";
+@import "../vendor/bootstrap-sass/assets/stylesheets/bootstrap/forms";
+@import "../vendor/bootstrap-sass/assets/stylesheets/bootstrap/buttons";
+//@import "../vendor/bootstrap-sass/assets/stylesheets/bootstrap/code";
+
+/*
+ * Components
+ * --------------------------------------------------
+ */
+@import "../vendor/bootstrap-sass/assets/stylesheets/bootstrap/component-animations";
+@import "../vendor/bootstrap-sass/assets/stylesheets/bootstrap/dropdowns";
+@import "../vendor/bootstrap-sass/assets/stylesheets/bootstrap/input-groups";
+@import "../vendor/bootstrap-sass/assets/stylesheets/bootstrap/navs";
+@import "../vendor/bootstrap-sass/assets/stylesheets/bootstrap/breadcrumbs";
+@import "../vendor/bootstrap-sass/assets/stylesheets/bootstrap/pagination";
+@import "../vendor/bootstrap-sass/assets/stylesheets/bootstrap/close";
+// @import "../vendor/bootstrap-sass/assets/stylesheets/bootstrap/button-groups";
+// @import "../vendor/bootstrap-sass/assets/stylesheets/bootstrap/navbar";
+// @import "../vendor/bootstrap-sass/assets/stylesheets/bootstrap/pager";
+// @import "../vendor/bootstrap-sass/assets/stylesheets/bootstrap/labels";
+// @import "../vendor/bootstrap-sass/assets/stylesheets/bootstrap/badges";
+// @import "../vendor/bootstrap-sass/assets/stylesheets/bootstrap/jumbotron";
+// @import "../vendor/bootstrap-sass/assets/stylesheets/bootstrap/thumbnails";
+// @import "../vendor/bootstrap-sass/assets/stylesheets/bootstrap/alerts";
+// @import "../vendor/bootstrap-sass/assets/stylesheets/bootstrap/progress-bars";
+// @import "../vendor/bootstrap-sass/assets/stylesheets/bootstrap/media";
+// @import "../vendor/bootstrap-sass/assets/stylesheets/bootstrap/list-group";
+// @import "../vendor/bootstrap-sass/assets/stylesheets/bootstrap/panels";
+// @import "../vendor/bootstrap-sass/assets/stylesheets/bootstrap/responsive-embed";
+// @import "../vendor/bootstrap-sass/assets/stylesheets/bootstrap/wells";
+
+/*
+ * Components w/ JavaScript
+ * --------------------------------------------------
+ */
+@import "../vendor/bootstrap-sass/assets/stylesheets/bootstrap/modals";
+// @import "../vendor/bootstrap-sass/assets/stylesheets/bootstrap/tooltip";
+// @import "../vendor/bootstrap-sass/assets/stylesheets/bootstrap/popovers";
+// @import "../vendor/bootstrap-sass/assets/stylesheets/bootstrap/carousel";
+
+/*
+ * Utility classes
+ * --------------------------------------------------
+ */
+// @import "../vendor/bootstrap-sass/assets/stylesheets/bootstrap/utilities";
+// @import "../vendor/bootstrap-sass/assets/stylesheets/bootstrap/responsive-utilities";
+
+/*
+ * CSS ANIMATION
+ * --------------------------------------------------
+ */
+@import "../vendor/aos/src/sass/aos.scss";
+
+/*
+ * SLICK CAROUSEL
+ * --------------------------------------------------
+ */
+@import "../vendor/slick-carousel/slick/slick.scss";
+$slick-font-family: "Arial";
+$slick-loader-path: "../images/";
+$slick-prev-character: "\2190";
+$slick-next-character: "\2192";
+$slick-dot-character: "\f111";
+$slick-dot-size: 8px;
+$slick-dot-color: $primary-color;
+$slick-dot-color-active: #FFF;
+$slick-arrow-color: rgba(255,255,255,.5);
+$slick-opacity-default: 0.9;
+$slick-opacity-on-hover: 1;
+$slick-opacity-not-active: 1;
+@import "../vendor/slick-carousel/slick/slick-theme.scss";
+@import "../vendor/slick-carousel/slick/slick.scss";

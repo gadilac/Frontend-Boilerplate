@@ -1,0 +1,19 @@
+// GREATER THAN 1200px ===========
+@media (min-width: $screen-lg){
+
+}
+
+// FROM 992px TO 1200px ==========
+@media (min-width: $screen-md) and (max-width: $screen-md-max) {
+
+}
+
+// FROM 768px TO 992px  ==========
+@media(min-width: $screen-sm) and (max-width: $screen-sm-max) {
+
+}
+
+// LESS THAN 768px ===============
+@media(max-width: $screen-xs-max) {
+
+}

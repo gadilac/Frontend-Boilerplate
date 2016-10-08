@@ -1,0 +1,97 @@
+@import "addons/custom_variables";
+@import "addons/mixins";
+@import "addons/addon";
+
+/**
+* @include opacity($opacity);
+* @include retina('my_image.png', 3, 100px 50px, center center no-repeat);
+* @include text-overflow();
+* @include box-shadow($shadow...);
+* @include content-columns($column-count, $grid-gutter-width);
+* @include placeholder($color: $input-color-placeholder);
+* @include clearfix();
+* @include center-block();
+* @include gradient-horizontal($start-color: #555, $end-color: #333, $start-percent: 0%, $end-percent: 100%);
+* @include gradient-vertical($start-color: #555, $end-color: #333, $start-percent: 0%, $end-percent: 100%);
+* @include gradient-directional($start-color: #555, $end-color: #333, $deg: 45deg);
+* @include gradient-horizontal-three-colors($start-color: #00b3ee, $mid-color: #7a43b6, $color-stop: 50%, $end-color: #c3325f);
+* @include gradient-vertical-three-colors($start-color: #00b3ee, $mid-color: #7a43b6, $color-stop: 50%, $end-color: #c3325f);
+* @include gradient-radial($inner-color: #555, $outer-color: #333);
+* @include gradient-striped($color: rgba(255,255,255,.15), $angle: 45deg);
+**/
+
+/*
+ * Basic Tweaks
+ * --------------------------------------------------
+ */
+
+/* IE10 viewport hack for Surface/desktop Windows 8 bug */
+@-ms-viewport     { width: device-width; }
+@-o-viewport      { width: device-width; }
+@viewport         { width: device-width; }
+*:focus {
+    outline: 0;
+}
+
+body,
+html {
+    min-height: 100%;
+    overflow-x: hidden; /* Prevent scroll on narrow devices */
+}
+
+a:active,
+a:focus,
+a:hover {
+    outline: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 0;
+    font-family: $font-family-sans-serif;
+    small {
+        display: block;
+    }
+}
+
+.form-control {
+    box-shadow: none;
+    &:focus {
+        box-shadow: none;
+    }
+}
+
+.img-responsive {
+    max-width: 100%;
+}
+
+blockquote {
+    border: none;
+    footer:before {
+        content: "";
+    }
+}
+
+/*
+ * Custom Styles
+ * --------------------------------------------------
+ */
+
+ .login-wrap {
+     height: 100vh; /* 100% Viewport Height */
+ }
+
+ .main,
+ .sidebar {
+     padding-bottom: 40px;
+ }
+
+/*
+ * Responsive
+ * --------------------------------------------------
+ */
+@import "responsive";
